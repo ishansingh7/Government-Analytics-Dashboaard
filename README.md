@@ -1,6 +1,4 @@
 <p align="center">
-  <img src="./assets/logo.png" alt="Logo" width="120"/>
-</p>
 
 <h1 align="center">📊 Government Complaint & Performance Dashboard</h1>
 
