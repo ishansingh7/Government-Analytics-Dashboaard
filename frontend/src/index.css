@@ -1,0 +1,20 @@
+
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+
+  /* Make buttons consistently visible across the UI */
+  button {
+    @apply bg-[#2E4897] text-white font-semibold rounded-md px-4 py-2 border border-transparent shadow-sm hover:bg-[#1f3575] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#2E4897] transition;
+  }
+
+  button:disabled {
+    @apply opacity-60 cursor-not-allowed;
+  }
+}
